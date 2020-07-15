@@ -38,7 +38,7 @@ dependencies {
   compile "com.google.flogger:flogger:${floggerVersion}"
   runtime "com.google.flogger:flogger-system-backend:${floggerVersion}"
   compile "com.google.http-client:google-http-client:${httpClientVersion}"
-  compile "javax.servlet:servlet-api:${servletApiVersion}"
+  compile "javax.servlet:javax.servlet-api:${servletApiVersion}"
   compile "org.bitbucket.b_c:jose4j:${jose4jVersion}"
 
   testCompile "junit:junit:${junitVersion}"
